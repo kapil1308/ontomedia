@@ -1,0 +1,219 @@
+body {
+	font-family: Raleway;
+}
+
+.navbar-brand {
+	font-weight: 700;
+}
+
+.navbar {
+	text-transform: uppercase;
+	background: white;
+	border-bottom: 1.5px solid black;
+}
+
+.navbar a {
+	color: black;
+}
+
+
+#main {
+	width: 100%;
+	min-height: 100vh;
+	padding-top: 90px;
+	background:url(https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1462&q=80);
+	background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    opacity: 0.95;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.nav-item {
+	font-weight: 520;
+}
+
+.navbar-light .navbar-toggler {
+	color: red;
+}
+
+#main h1 {
+	font-weight: 700;
+	padding-bottom: 90px;
+}
+
+.btn-dark {
+	padding-top: 20px;
+	background-color: #000000;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+}
+
+.btn-dark:hover {
+	background-color: #000000;
+}
+
+#main p {
+	padding-bottom: 20px;
+}
+
+.nav-item > a:hover {
+  color: white;
+  background-color: black;
+}
+
+#about {
+	width: 100%;
+	min-height: 100vh;
+	padding-top: 60px;
+}
+
+#about h1 {
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-bottom: 40px;
+}
+
+.aboutbg {
+	background: url(https://images.unsplash.com/photo-1527153818091-1a9638521e2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=858&q=80) center top no-repeat;
+	min-height: 450px;
+
+}
+
+#about p {
+	text-align: justify;
+	color: black;
+	padding-top: 14px;
+}
+
+#services {
+	width: 100%;
+	min-height: 100vh;
+	padding-top: 50px;
+}
+
+#services h1 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#services h3 {
+	font-weight: 700;
+}
+
+#services .card {
+	margin-top: 30px;
+	border:transparent;
+	background: transparent;
+}
+
+#team {
+	width: 100%;
+	min-height: 100vh;
+	padding-top: 80px;
+}
+
+#team h1 {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+ #team h4 {
+ 	padding-top: 20px;
+}
+
+#team img:first-of-type {
+	padding-top: 20px;
+}
+
+#team p:first-of-type {
+	font-weight: 700;
+}
+
+#team p {
+	padding-top: 12px;
+}
+
+#price {
+	width: 100%;
+	min-height: 100vh;
+	padding-top: 60px;
+}
+
+#price h1 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#price .card {
+	margin-top: 30px;
+}
+
+#price .card-title {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#price .card button {
+	text-transform: uppercase;
+	display: block;
+	margin: auto;
+}
+
+#contact {
+	padding-bottom: 26px;
+	width: 100%;
+	min-height: 100vh;
+	padding-top: 60px;
+}
+
+#contact h1{
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#contact .row {
+	padding-top: 30px;
+}
+
+#contact .row h3 {
+	padding-top: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+#contact h5 {
+	padding-top: 20px;
+}
+
+#contact .fab {
+	padding-top: 25px;
+	text-align: center;
+	display: inline-block;
+	width: 24%;
+}
+
+#contact .fab:hover {
+	font-size: 3em;
+	cursor: pointer;
+}
+
+#footer {
+	border-radius: 3px 3px 0 0;
+	padding-top: 12px;
+	padding-bottom: 6px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-family: Raleway;
+}
+
+#footer i {
+	color: red;
+}
+
+#footer a:link {
+	color: white;
+}
